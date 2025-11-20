@@ -221,11 +221,11 @@ Assets/
 Example structure:
 
 ### Character Selection
-![Character Selection Screen](Images/Title.png)
+![Character Selection Screen](Images/characters.png)
 *Choose from 6 unique character classes*
 
 ### Character Introduction
-![Character Showcase](Images/characters.png)
+![Character Showcase](Images/Title.png)
 *Animated character introduction sequence*
 
 ### Town Exploration
