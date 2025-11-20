@@ -247,7 +247,7 @@ Example structure:
 *Navigate between different Dungeon locations*
 
 ### Boss Door
-![Boss Entrance](Images/Dungeon_background_2.png)
+![Boss Entrance](Images/panorama_dungeon_zone_2.jpg)
 *Dramatic boss area entrance with earthquake effects*
 
 
