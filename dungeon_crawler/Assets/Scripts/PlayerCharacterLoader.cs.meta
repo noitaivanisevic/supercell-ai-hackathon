@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: b8f3438625cd9b0429c3132272342427
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - fighterSprite: {fileID: -3243221708704459772, guid: 3c3888c71dcc9a64880b705bb4782ec5, type: 3}
+  - knightSprite: {fileID: -5650937905414234860, guid: fd4f966f9c078cb49961e8eb02fd335b, type: 3}
+  - thiefSprite: {fileID: -8051105487168061783, guid: 18e4a9e7d5536264ebaeb123e21874d1, type: 3}
+  - beastSprite: {fileID: -2941990513877699459, guid: d2d89bdd93948a742bb4ad087298da5f, type: 3}
+  - vampireSprite: {fileID: -8220416643034396823, guid: 2701b8cd6eed4234797cb73bc69bd443, type: 3}
+  - archerSprite: {fileID: -3177238883722149357, guid: 177f23cb5b213e14294adc35b7f86c1d, type: 3}
+  - playerSpriteRenderer: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
