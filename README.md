@@ -230,6 +230,7 @@ Example structure:
 
 ### Town Exploration
 ![Town Area](Images/City_map.png)
+
 *Explore peaceful town areas*
 
 ### Town Map
