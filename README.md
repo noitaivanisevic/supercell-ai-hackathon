@@ -1,30 +1,30 @@
-# 🎮 RPG Adventure Game - Unity Project
+# RPG Adventure Game - Unity Project
 
-## 📋 Project Overview
+## Project Overview
 
 A 2D RPG adventure game built in Unity featuring character selection, exploration across multiple town and dungeon areas, with a focus on world navigation and character customization.
 
-## ✨ Key Features
+## Key Features
 
-### 🎭 Character System
+### Character System
 - **6 Playable Characters**: Fighter, Knight, Thief, Beast Class, Vampire, and Archer
 - **Unique Stats**: Each character has different HP, Attack, Defense, and Speed stats
 - **Persistent Selection**: Character choice is saved using PlayerPrefs and persists across game sessions
 - **Dynamic Sprite Loading**: Character sprites automatically apply to all player instances across different areas
 
-### 🗺️ World Exploration
+### World Exploration
 - **Town Areas**: 3 explorable town zones (Town1, Town2, Town3) with Town Map navigation
 - **Dungeon System**: 3 dangerous dungeons (Dungeon1, Dungeon2, Dungeon3) with Dungeon Map
 - **Area Transitions**: Seamless transitions between areas using trigger zones
 - **Camera System**: Dynamic camera that follows the player with smooth movement and configurable bounds
 
-### 🎨 Visual Systems
+### Visual Systems
 - **Character Introduction**: Animated character showcase with fade effects and mist particles
 - **Background Switching**: Dynamic backgrounds change based on current game state
 - **UI Elements**: Polished user interface with animated buttons and visual feedback
 - **Camera Effects**: Smooth camera following with configurable bounds for each area
 
-## 🏗️ Technical Architecture
+## Technical Architecture
 
 ### Core Manager Systems
 
@@ -88,7 +88,7 @@ A 2D RPG adventure game built in Unity featuring character selection, exploratio
 - Player movement during cutscene
 - Disables player scripts during sequence
 
-## 🎯 Character Stats
+## Character Stats
 
 | Character | HP | ATK | SPD | DEF |
 |-----------|-----|-----|-----|-----|
@@ -99,7 +99,7 @@ A 2D RPG adventure game built in Unity featuring character selection, exploratio
 | Vampire | 90 | 22 | 3 | 4 |
 | Archer | 75 | 19 | 3 | 4 |
 
-## 🎮 Controls
+## Controls
 
 ### Exploration
 - **WASD / Arrow Keys**: Move character
@@ -109,7 +109,7 @@ A 2D RPG adventure game built in Unity featuring character selection, exploratio
 - **P Key**: Print current PlayerPrefs data (CharacterManager)
 - **R Key**: Force refresh all character sprites (CharacterManager)
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Assets/
@@ -148,7 +148,7 @@ Assets/
     └── UI/
 ```
 
-## 🚀 Setup Instructions
+## Setup Instructions
 
 ### Prerequisites
 - Unity 2021.3 or later
@@ -180,7 +180,7 @@ Assets/
 - Area transition triggers with AreaTransition script
 - Background SpriteRenderer for dynamic backgrounds
 
-## 🐛 Common Issues & Solutions
+## Common Issues & Solutions
 
 ### Character Sprite Not Applying
 - Ensure CharacterManager exists and has DontDestroyOnLoad
@@ -203,7 +203,7 @@ Assets/
 - Check that player has "Player" tag assigned
 - Ensure target area is correctly set in AreaTransition inspector
 
-## 🔧 Debug Features
+## Debug Features
 
 ### Built-in Testing
 - **P Key**: View saved character data
@@ -216,44 +216,47 @@ Assets/
   - Sprite application
   - Area transitions
 
-## 📸 Screenshots
-
-*[Add your screenshots here with descriptions]*
+## Screenshots
 
 Example structure:
-```markdown
+
 ### Character Selection
-![Character Selection Screen](screenshots/character_selection.png)
+![Character Selection Screen](Images/Title.png)
 *Choose from 6 unique character classes*
 
 ### Character Introduction
-![Character Showcase](screenshots/character_intro.png)
+![Character Showcase](Images/characters.png)
 *Animated character introduction sequence*
 
 ### Town Exploration
-![Town Area](screenshots/town_area.png)
+![Town Area](Images/City_map.png)
 *Explore peaceful town areas*
 
 ### Town Map
-![Town Map](screenshots/town_map.png)
+![Town Map 1](Images/panorama_city_zone_1.jpg)
+![Town Map 2](Images/panorama_city_zone_3.jpg)
 *Navigate between different town locations*
 
 ### Dungeon Exploration
-![Dungeon Area](screenshots/dungeon.png)
+![Dungeon Area](Images/dark_dungeon_map.jpg)
 *Venture into dangerous dungeons*
 
-### Boss Door
-![Boss Entrance](screenshots/boss_door.png)
-*Dramatic boss area entrance with earthquake effects*
-```
+### Dungeon Map
+![Dungeon Map 1](Images/panorama_dungeon_zone_1.jpg)
+![Dungeon Map 2](Images/panorama_dungeon_zone_3.jpg)
+*Navigate between different Dungeon locations*
 
-## 🎯 Future Improvements
+### Boss Door
+![Boss Entrance](Images/Dungeon_background_2.png)
+*Dramatic boss area entrance with earthquake effects*
+
+
+## Future Improvements
 
 ### Planned Features
 - [ ] Combat system with turn-based battles
 - [ ] Enemy encounters and AI
 - [ ] Inventory system with items and equipment
-- [ ] NPC dialogue system
 - [ ] Quest/mission system
 - [ ] Save/Load game state (beyond character selection)
 - [ ] Experience and leveling system
@@ -269,7 +272,7 @@ Example structure:
 - [ ] Mobile touch controls
 - [ ] Minimap system
 
-## 🤝 Contributing
+## Contributing
 
 If you'd like to contribute to this project:
 1. Fork the repository
@@ -278,23 +281,16 @@ If you'd like to contribute to this project:
 4. Test thoroughly
 5. Submit a pull request
 
-## 📝 License
+## License
 
-*[Add your license information here]*
+*MIT license*
 
-## 👥 Credits
+## Credits
 
 ### Development Team
-- *[Your name/team names]*
-
-### Assets Used
-- Character sprites: *[Source]*
-- Background art: *[Source]*
-- UI elements: *[Source]*
-
-### Special Thanks
-- Unity community for tutorials and support
-- *[Any other acknowledgments]*
+- *Kosta Ljubisavljević*
+- *Ricardo Rino de Sousa*
+- *Noah Ivanisevic*
 
 ---
 
@@ -305,9 +301,9 @@ If you'd like to contribute to this project:
 
 ---
 
-## 📧 Contact
+## Contact
 
 For questions or support:
-- Email: *[your email]*
-- Discord: *[your discord]*
-- GitHub: *[repository link]*
+- Email: [noitaivanisevic49@gmail.com](mailto:noitaivanisevic49@gmail.com)
+- GitHub: [View Repository](https://github.com/noitaivanisevic/supercell-ai-hackathon)
+- Portfolio: [View my Portfolio]()
